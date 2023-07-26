@@ -34,6 +34,7 @@ public class BasePage
 	@BeforeSuite
 	public void initialize()
 	{
+		System.out.println("hello");
 		prop=new Properties();
 		try{prop.load(new FileInputStream("./src/main/java/conf/config.properties"));}catch(Exception e) {}
 		SimpleDateFormat formatter = new SimpleDateFormat("dd-MM-yyyy");
