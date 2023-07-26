@@ -1,0 +1,8 @@
+<suite name="Flipkart">
+	<test name="Flipkart testing">
+		<classes>
+			<class name="base.BasePage"/>
+			<class name="functionalTest.FlipkartTest"/>
+		</classes>
+	</test>
+</suite>
